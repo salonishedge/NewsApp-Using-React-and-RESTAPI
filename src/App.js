@@ -1,7 +1,9 @@
 import './App.css';
 
+
 function App() {
   return (
+    
     <div className="App">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"></link>
       <h1>News App</h1>

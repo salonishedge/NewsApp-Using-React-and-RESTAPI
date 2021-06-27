@@ -14,3 +14,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  border: 1px solid #ddd;
+  
+}
+
+ul li {
+  
+  padding: 8px 16px;
+  border-bottom: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+ul li:last-child {
+  border-bottom: none
+  
+}
+#title{
+  align-content: center;
+  width: 100%;
+  float: left;
+
+}
+#description{
+  
+  width:100%;
+  float: left;
+}

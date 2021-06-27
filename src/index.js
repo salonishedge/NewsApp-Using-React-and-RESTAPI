@@ -34,12 +34,24 @@ function retrieve(e){
   }).then((data)=>{
     console.log(data)
     data.articles.forEach(article=>{
+      var img = new Image();
+      let desc= document.createElement('desc');
+      img.src =article.urlToImage;
+      img.height=200;
+      img.width=400;
       let li= document.createElement('li');
       let a=document.createElement('a');
+      li.setAttribute('id','list');
       a.setAttribute('href',article.url);
+      a.setAttribute('id','title');
+      desc.setAttribute('id','description');
+      img.setAttribute('id','thumbnail');
       a.setAttribute('target','_blank');
+      desc.textContent=article.description;
       a.textContent=article.title;
       li.appendChild(a);
+      li.appendChild(desc);
+      li.appendChild(img);
       newsList.appendChild(li);
     })
   })
