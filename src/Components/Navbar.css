@@ -1,0 +1,28 @@
+#mainNav{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  padding-top: 20px;
+  background-color: white;
+  -webkit-box-shadow: 0 5px 5px #d6d6d6;
+  -moz-box-shadow: 0 5px 5px #d6d6d6;
+  box-shadow: 0 5px 5px #d6d6d6;
+}
+
+#sal{
+  border-radius: 5px;
+  width: 500px;
+  background-color: #f0f4f3;
+  height: 50px;
+  
+}
+.submit{
+  margin-left: 20px;
+  height: 48px;
+}
+
+
+.content {
+  padding-top: 110px;
+}
