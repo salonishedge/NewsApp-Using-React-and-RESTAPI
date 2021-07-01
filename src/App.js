@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './Components/Navbar'
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
+import Sidebar from './Components/Sidebar'
 
 function App() {
   return (
@@ -10,9 +11,11 @@ function App() {
       <Router>
       <Navbar></Navbar>
       </Router>
+
+      <Sidebar/>
       
       <div className="content">
-        <ul className="news-list"></ul>
+        <ul className="news-list" id="news-list"></ul>
       </div>
 
       
